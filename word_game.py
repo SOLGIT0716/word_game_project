@@ -51,7 +51,7 @@ else:
                 # 다음 단어 찾기
                 next_word_list = fetch_word_from_api(start[-1])
                 if not next_word_list:
-                    st.chat_message('assistant').write(f'패배, {start[-1]}로 시작하는 단어가 없습니다.')
+                    st.chat_message('assistant').write(f'플레이어의 승리, {start[-1]}(으)로 시작하는 단어가 없습니다.')
                 else:
                     answer = random.choice(next_word_list)
                     while answer in st.session_state["answer_list"]:
