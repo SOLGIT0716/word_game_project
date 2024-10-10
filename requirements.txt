@@ -1,0 +1,4 @@
+requests
+random
+bs4
+streamlit
