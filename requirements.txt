@@ -2,3 +2,4 @@ requests
 random
 BeutifulSoup
 streamlit
+bs4
