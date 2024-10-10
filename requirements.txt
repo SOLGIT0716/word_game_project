@@ -1,4 +1,4 @@
 requests
 random
-bs4
+BeutifulSoup
 streamlit
